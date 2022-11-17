@@ -46,6 +46,9 @@ z-index: -1;
 .aboutus__explore {
     color: #CA9E67;
     font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .aboutus__content {
     position: absolute;
@@ -77,4 +80,22 @@ z-index: -1;
 font-size: 24px;
 left: calc(50% - 100px);
 color: #ADADAD;
+}
+
+
+.aboutus__explore {
+    margin-top: 3rem;
+}
+.aboutus__explorebtn {
+    background: none;
+    border: none;
+    position: relative;
+    margin-left: 2rem;
+
+}
+
+.aboutus__explorearrow {
+    position: absolute;
+    top:8px;
+    left:20px
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import toit from "../../assets/images/toitbuilding.png";
 import line from "../../assets/svg/line.png";
+import circle from "../../assets/svg/explorecircle.png";
+import arrow from "../../assets/svg/explorearrow.png";
 import "./aboutus.css";
 
 const AboutUs = () => {
@@ -26,7 +28,15 @@ const AboutUs = () => {
 
           <div className="aboutus__explore">
             <p> EXPLORE</p>
-            <button></button>
+            <button className="aboutus__explorebtn">
+              <div className="aboutus__explorecircle">
+                <img src={circle} alt="explore toit" />
+              </div>
+              <div className="aboutus__explorearrow">
+                {" "}
+                <img src={arrow} alt="explore toit" />
+              </div>
+            </button>
           </div>
         </div>
         <div className="aboutus__line">
