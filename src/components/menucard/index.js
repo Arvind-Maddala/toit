@@ -1,6 +1,5 @@
 import React from "react";
 import "./menucard.css";
-import bars from "../../assets/images/bars.png";
 
 const MenuCard = ({ title, picture }) => {
   return (

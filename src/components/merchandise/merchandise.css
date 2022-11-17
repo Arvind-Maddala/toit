@@ -5,4 +5,22 @@
     mix-blend-mode: luminosity;
 
 height: 1010px;
+position: relative;
+}
+
+.merchandise__cap {
+    position: absolute;
+    top:172px;
+    right:231px;
+}
+
+.merchandise__circle1 {
+    position: absolute;
+    left: 0;
+    top:249px;
+}
+.merchandise__circle2 {
+    position: absolute;
+    bottom:63px;
+    left:calc(50% - 100px)
 }
