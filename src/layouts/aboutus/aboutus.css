@@ -41,6 +41,8 @@ z-index: -1;
     max-width: 527px;
     font-weight: 300;
     margin: 1.5rem 0 2rem 0;
+    font-weight: 300;
+    line-height: 1.7;
 }
 
 .aboutus__explore {
@@ -61,10 +63,6 @@ z-index: -1;
     min-width: 730px;
 }
 
-.aboutus__toitbuilding img{
-    width:831px;
-    height: 591px;
-}
 
 .aboutus__line {
     position: absolute;
@@ -77,9 +75,9 @@ z-index: -1;
     position: absolute;
     bottom: 90px;
     font-weight: 700;
-font-size: 24px;
-left: calc(50% - 100px);
-color: #ADADAD;
+    font-size: 24px;
+    left: calc(50% - 100px);
+    color: #ADADAD;
 }
 
 
@@ -91,11 +89,73 @@ color: #ADADAD;
     border: none;
     position: relative;
     margin-left: 2rem;
-
+cursor: pointer;
 }
 
 .aboutus__explorearrow {
     position: absolute;
     top:8px;
     left:20px
+}
+
+
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px) {
+
+    .aboutus__toitbuildingimg{
+        width:680px;
+        height: 491px;
+    }
+
+    
+    .aboutus__brand {
+        
+        bottom: 200px;
+        
+        left: calc(50% - 100px);
+        color: #ADADAD;
+        font-size: 18px;
+    }
+    .aboutus__content {
+        
+        top: 240px;
+        left:250.34px;
+    
+    }
+    .aboutus__content h1 {
+        font-size: 60px;
+    }
+
+    .aboutus__title {
+        font-size: 14px;
+       
+    }
+    .aboutus__desc {
+        font-size: 18px;
+        max-width: 400px;
+        font-weight: 300;
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    .aboutus__blank {
+        min-width: 490px;
+    }
+    
+    .aboutus__line {
+        bottom: 70px;
+        left: 679.46px;
+    }
+
+    .aboutus__explorecircle img {
+        width:30px;
+    }
+
+    .aboutus__explorearrow {
+        top:5px;
+        left:15px
+    }
+    .aboutus__explorearrow img {
+        width: 30px;
+    }
+    
 }

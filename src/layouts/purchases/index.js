@@ -6,7 +6,7 @@ import shopnow from "../../assets/svg/shopnow.png";
 const Purchases = () => {
   return (
     <>
-      <div className="tet">
+      <div className="purchases__parent">
         <div className="purchases">
           <div className="block"></div>
 

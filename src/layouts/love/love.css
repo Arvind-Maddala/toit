@@ -73,3 +73,59 @@
     width: 204px;
     height: 204px;
 }
+
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px)  {
+  
+    .love__content {
+        left: calc(50% - 320px);
+    }
+    
+    .love__content h1 {
+        font-weight: 900;
+        font-size: 175px;
+        color: #CA9E67;
+        letter-spacing: -5px;
+    }
+    
+    .love__content p {
+        font-size: 38px;
+    }
+    
+    .love__beerleft {
+        top:45px;
+    }
+
+    .love__beerleft img {
+        width: 360px;
+    }
+    .love__beerright {
+        top:290px;
+        right: 0;
+    }
+    .love__beerright img {
+        width: 580px;
+    }
+    .circle1{
+       
+        left:90px; 
+       
+    }
+    .circle1 img{
+       width:100px;
+    }
+    .circle2 {
+        top:280px;
+        right:300px;
+    }
+    
+    .circle2 img {
+        width: 154px;
+        height: 154px;
+    }
+    .love__doglogo img {
+        width: 150px;
+    }
+
+    
+ }

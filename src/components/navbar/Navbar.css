@@ -19,6 +19,7 @@
     align-items: flex-start;
     flex-direction: column;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .NavBar__menuline2 {
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .Navbar--Menu p {
@@ -39,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 
@@ -62,4 +65,20 @@
     top: 10px;
     left: calc(50% - 50px);
 
+}
+
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px) {
+    .Navbar{
+        font-size: 12px;
+        padding: 2rem 12rem;
+    }
+    .Navbar--logo img{
+        width: 85px;
+    }
+    .Navbar--location img {
+        margin-left: -0.6rem;
+        width: 10px;
+    }
+    
 }

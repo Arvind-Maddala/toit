@@ -10,6 +10,7 @@
 .menucard--description {
     font-size: 18px;
     max-width: 294px;
+    font-weight: 300;
 }
 
 .menucard {
@@ -21,4 +22,18 @@
 }
 .menucard__content {
     margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px) {
+    .menucard--description {
+        font-size: 16px;
+        max-width: 254px;
+       
+    }
+    .menucard__title{
+        font-size: 65px;
+        margin-left: 0;
+    }
 }

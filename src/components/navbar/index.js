@@ -28,7 +28,7 @@ const NavBar = () => {
           <p>RESERVATION</p>
           <p> BREWERY TOUR</p>
           <div className="Navbar--location">
-            <h5> FIND MY BEER</h5>
+            <p> FIND MY BEER</p>
             <img src={location} alt="location" />
           </div>
         </div>

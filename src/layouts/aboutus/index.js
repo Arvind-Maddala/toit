@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className="aboutus">
           <div className="aboutus__blank"> </div>
           <div className="aboutus__toitbuilding">
-            <img src={toit} alt="toit building" />
+            <img className="aboutus__toitbuildingimg" src={toit}  alt="toit building" />
           </div>
         </div>
         <div className="aboutus__content">
@@ -20,10 +20,9 @@ const AboutUs = () => {
           <h1> WE ARE TOIT.</h1>
           <h1> YOU SHOULD BE TOO...</h1>
           <p className="aboutus__desc">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
+            Toit is a brew pub, brewing a revolutionary culture. We started out
+            as a sweet little Bengaluru brewing culture with the promise of some
+            bodacious brews, fabulous foods and a supreme brew-pub experience
           </p>
 
           <div className="aboutus__explore">

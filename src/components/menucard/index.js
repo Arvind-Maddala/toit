@@ -7,10 +7,10 @@ const MenuCard = ({ title, picture }) => {
       <div
         className="menucard"
         style={{
-          minWidth: "635px",
+          width: "100%",
           height: "827px",
           background: `url(${picture}) no-repeat`,
-          backgroundSize:"cover"
+          backgroundSize: "cover",
         }}
       >
         <div className="menucard__content ">

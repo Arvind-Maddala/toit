@@ -1,14 +1,14 @@
 
 .purchases {
     display: flex;
-    background: #CA9E67;
     
+    background: #CA9E67;
 }
 
 
 .purchases--context h1 {
     font-weight: 700;
-        font-size: 100px;
+    font-size: 100px;
     width: 1200px;
     line-height: 0.9;
     height: 220px;
@@ -18,6 +18,7 @@
     width: 609px;
     margin: 3rem 0;
     font-size: 24px;
+    font-weight: 300;
 }
 .purchases--context button {
     width: 275px;
@@ -29,6 +30,7 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .purchases__arrow {
@@ -37,7 +39,8 @@
 
 .block {
     min-width: 950px;
-    height: 1010px;
+    min-height: 1010px;
+    background: #CA9E67;
 }
 
 .purchases--context {
@@ -47,7 +50,44 @@
 
 }
 
-.tet {
+.purchases__parent {
     position: relative;
     color: #fff;
 }
+
+
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px)  {
+  
+    
+    .purchases--context h1 {
+        font-size: 70px;
+        width: 800px;
+        line-height: 1.1;
+    }
+    .purchases--context p {
+        line-height: 1.5;
+        width: 459px;
+        /* margin: 1rem 0; */
+        font-size: 18px;
+        margin-top: -2rem;
+       
+    }
+    .purchases--context button {
+        max-width: 240px;
+        height: 56px;
+        font-size: 18px;
+    }
+
+    .purchases--context {
+        
+        top: 125px;
+        left:209px; 
+    
+    }
+    .block {
+        min-width: 760px;
+        min-height: 780px;
+    }
+    
+ }

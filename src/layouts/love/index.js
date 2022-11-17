@@ -16,7 +16,7 @@ const Love = () => {
           </div>
         </div>
         <div className="love__content">
-          <div>
+          <div className="love__doglogo">
             <img src={dog} alt="dog logo" />
           </div>
           <p> COME BY. TRY EVERYTHING TWICE.</p>

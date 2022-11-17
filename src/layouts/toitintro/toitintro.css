@@ -2,20 +2,12 @@
     background-image: linear-gradient(180deg, #0E0E0E, rgba(11, 11, 11, 0)), url('../../assets/images/mainbg.png');
     background-size: cover;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 1.1rem;
 
 }
 .ti__navbar {
     z-index: 99;
 }
-/* .ti__polkaoverlay {
-    position: absolute;
-    background: linear-gradient(180deg, #0E0E0E 0%, rgba(11, 11, 11, 0) 100%);    
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index:0;
-} */
 
 .ti--name {
     display: flex;
@@ -47,6 +39,7 @@
     background: none;
     border: none;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .ti--scrolldown p{
@@ -56,3 +49,18 @@ color: #FFF;
 margin-bottom: 3rem;
 }
 
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px) {
+    
+    .ti__title {
+        font-size: 200px;
+    }
+    .ti--scrolldown p{
+        font-size: 12px;
+        
+        }
+
+        .ti__scrollbtn img {
+            width: 15px;
+        }
+}

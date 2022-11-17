@@ -1,10 +1,10 @@
 .merchandise {
-
-    background: url('../../assets/images/merchandisebg.png')  #8B4513 no-repeat;
+    background: url('../../assets/images/merchandisebg.png')#8B4513 no-repeat;
     min-width: 950px;
+    background-size: cover;
     mix-blend-mode: luminosity;
 
-height: 1010px;
+min-height: 1010px;
 position: relative;
 }
 
@@ -24,3 +24,35 @@ position: relative;
     bottom:63px;
     left:calc(50% - 100px)
 }
+
+@media (min-device-width: 1200px) 
+and (max-device-width: 1600px)  {
+    .merchandise{
+        min-width:760px;
+        min-height: 780px;
+    }
+
+    .merchandise__cap {
+        top:122px;
+        right:171px;
+    }
+
+    .merchandise__cap img {
+        width: 500px;
+    }
+    
+    .merchandise__circle1 {
+        left: 0;
+        top:200px;
+    }
+    .merchandise__circle2 {
+        bottom:43px;
+        left:calc(50% - 80px)
+    }
+    .merchandise__circle2 img {
+        width: 160px;
+    }
+    .merchandise__circle1 img {
+        width: 90px;
+    }
+ }
