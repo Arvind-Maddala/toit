@@ -2,19 +2,27 @@
     display: flex;
     justify-content: space-between;
     position: relative !important;
-    background: url('../../assets/images/footerbg.png')  #121011 no-repeat;
     height: 900px;
+    background-image:
+            linear-gradient(45deg,
+              rgba(0,0,0, 0.7),
+              rgba(0,0,0, 0.7)), url('../../assets/images/footerbg.png');
+    background-color:   #121011;
+    mix-blend-mode: soft-light !important;
 }
+
 
 
 .footer--right {
     position: relative;
-    margin: 10rem;
+    margin-right: 12rem;
+    margin-top: 11rem;
 }
 
 .footer--left {
     position: relative;
-    margin: 10rem;
+    margin-left: 15rem;
+    margin-top: 10rem;
 }
 .footer--drink {
     position: relative;
@@ -73,7 +81,41 @@
     margin-right: 1rem;
  }
 
- .footer__parent {
-   position: relative;
-   
+
+
+ .footer__copyright, .footer__copyright2 {
+   font-size: 18px !important;
  }
+.footer__address p{
+    margin-bottom: 1rem;
+    text-align: right;
+}
+.footer__address {
+    margin-bottom: 4rem;
+}
+
+.footer__parent {
+   position: relative;
+}
+
+.footer__copyright {
+   margin-top: 12rem;
+}
+
+.footer__copyright2 {
+   margin-top: 8rem;
+   text-align: right;
+}
+
+.footer__email, .footer__number {
+   margin:1rem 0; 
+   text-align: right;
+}
+
+/* .footer-gradient {
+   position: absolute;
+   mix-blend-mode: soft-light;
+   opacity: 0.1;
+   background-color: #121011;
+} */
+

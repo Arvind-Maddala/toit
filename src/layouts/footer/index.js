@@ -46,26 +46,28 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <p> &copy; Copyright 2021</p>
+            <p className="footer__copyright"> &copy; Copyright 2021</p>
           </div>
           <div className="footer--right">
             <div className="footer__contactdetails">
-              <div>
+              <div className="footer__address">
                 <p> 298, 100Ft Rd</p>
                 <p> Indira Nagar II Stage</p>
                 <p> Bengaluru 560038</p>
                 <p> Karnataka</p>
               </div>
-              <p> +91 90197 13388</p>
-              <p> toitblr@toit</p>
-              <p> All Rights Reserved</p>
+              <div>
+                <p className="footer__number"> +91 90197 13388</p>
+                <p className="footer__email"> toitblr@toit</p>
+              </div>
+              <p className="footer__copyright2"> All Rights Reserved</p>
             </div>
           </div>
         </div>
         <div className="footer__scrolltop">
           <div className="footer__scrolltopAlign">
-          <img src={scrollTop} alt="footer" />
-          <p>TOP</p>
+            <img src={scrollTop} alt="footer" />
+            <p>TOP</p>
           </div>
         </div>
         <div className="footer--drink">
@@ -80,6 +82,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="footer-gradient"></div>
     </>
   );
 };
