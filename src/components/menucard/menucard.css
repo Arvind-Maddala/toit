@@ -1,0 +1,24 @@
+
+
+.menucard__title{
+    font-size: 80px;
+    font-weight: 700;
+    margin-left: -8px;
+    
+}
+
+.menucard--description {
+    font-size: 18px;
+    max-width: 294px;
+}
+
+.menucard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 5rem;
+    color: #fff;
+}
+.menucard__content {
+    margin-left: 5rem;
+}

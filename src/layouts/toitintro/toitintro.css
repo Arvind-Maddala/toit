@@ -1,0 +1,47 @@
+.ti--intro {
+    background: url('../../assets/images/mainbg.png');
+    position: relative;
+}
+
+.ti__polkaoverlay {
+    position: absolute;
+    background: url('../../assets/svg/polkadots.png');
+    width: 100%;
+    z-index: 999;
+}
+
+.ti--name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ti__title {
+    font-size: 370px;
+    font-weight: 700;
+  line-height: 0.8;
+  color: #EFEDDD;
+}
+
+
+
+.ti--scrolldown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ti__scrollbtn {
+    background: none;
+    border: none;
+    margin-top: 2rem;
+}
+
+.ti--scrolldown p{
+font-size: 14px;
+margin-top: 0.5rem;
+color: #FFF;
+margin-bottom: 3rem;
+}

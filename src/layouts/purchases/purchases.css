@@ -1,0 +1,53 @@
+
+.purchases {
+    display: flex;
+    background: #CA9E67;
+    
+}
+
+
+.purchases--context h1 {
+    font-weight: 700;
+        font-size: 100px;
+    width: 1200px;
+    line-height: 0.9;
+    height: 220px;
+}
+.purchases--context p {
+    line-height: 1.5;
+    width: 609px;
+    margin: 3rem 0;
+    font-size: 24px;
+}
+.purchases--context button {
+    width: 275px;
+    height: 66px;
+    border-radius: 33px;
+    background-color: #141011;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.purchases__arrow {
+    margin-left: 1rem;
+}
+
+.block {
+    min-width: 950px;
+    height: 1010px;
+}
+
+.purchases--context {
+    position: absolute;
+    top: 172px;
+    left:259px; 
+
+}
+
+.tet {
+    position: relative;
+    color: #fff;
+}
