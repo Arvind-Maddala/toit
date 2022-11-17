@@ -8,9 +8,10 @@ const MenuCard = ({ title, picture }) => {
       <div
         className="menucard"
         style={{
-          width: "100%",
+          minWidth: "635px",
           height: "827px",
           background: `url(${picture}) no-repeat`,
+          backgroundSize:"cover"
         }}
       >
         <div className="menucard__content ">

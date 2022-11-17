@@ -1,29 +1,65 @@
 .Navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 3rem 5rem ;
+    font-size: 18px;
     color: #fff;
-}
-
-.Navbar--links {
-    display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 14rem;
+    z-index: 999 !important;
 }
 
-.Navbar--links h6 {
-    margin-right: 1rem;
+.menu__links {
+    background: #FFA54F;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
 }
 
-.Navbar--logo {
-    margin-top: -1rem;
-    /* margin-right: -5rem; */
+.NavBar__menuline2 {
+    margin:3px 0;
 }
-.Navbar--location {
+
+.Navbar--Menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.25rem 0.5rem;
+}
+
+.Navbar--Menu p {
+    margin-left: 0.8rem;
+}
+
+.navbar__logolinks, .Navbar--links, .Navbar--location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Navbar--links p{
+ margin-right: 1.5rem;
+}
+ 
+.Navbar--location {
+    padding: 0.5rem 1rem ;
     border: 2px solid #fff;
+}
+
+.Navbar--location img {
+    margin-left: 1rem;
+}
+
+.Navbar--logo img{
+    margin-right: 8rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 50px);
+
 }
