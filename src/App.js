@@ -1,11 +1,21 @@
 import "./App.css";
-import { Footer, Gallery, MenuCards, Purchases, ToitIntro } from "./layouts";
+import {
+  AboutUs,
+  Footer,
+  Gallery,
+  Love,
+  MenuCards,
+  Purchases,
+  ToitIntro,
+} from "./layouts";
 
 function App() {
   return (
     <div>
       <ToitIntro />
       <MenuCards />
+      <AboutUs />
+      <Love />
       <Purchases />
       <Gallery />
       <Footer />

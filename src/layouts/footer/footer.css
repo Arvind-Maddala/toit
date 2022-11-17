@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative !important;
     background: url('../../assets/images/footerbg.png')  #121011 no-repeat;
     height: 900px;
@@ -9,10 +9,12 @@
 
 .footer--right {
     position: relative;
+    margin: 10rem;
 }
 
 .footer--left {
     position: relative;
+    margin: 10rem;
 }
 .footer--drink {
     position: relative;

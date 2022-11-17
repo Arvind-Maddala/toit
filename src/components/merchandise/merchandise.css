@@ -1,6 +1,8 @@
 .merchandise {
 
-    background: url('../../assets/images/merchandisebg.png') no-repeat;
+    background: url('../../assets/images/merchandisebg.png')  #8B4513 no-repeat;
     min-width: 950px;
+    mix-blend-mode: luminosity;
+
 height: 1010px;
 }
