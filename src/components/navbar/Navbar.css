@@ -71,7 +71,7 @@
 and (max-device-width: 1600px) {
     .Navbar{
         font-size: 12px;
-        padding: 2rem 12rem;
+        padding: 2rem 11rem;
     }
     .Navbar--logo img{
         width: 85px;
