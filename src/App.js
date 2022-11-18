@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <ToitIntro />
       <MenuCards />
       <AboutUs />

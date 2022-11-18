@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
     position: relative !important;
-    height: 900px;
+    height: 850px;
     background-image:
             linear-gradient(45deg,
               rgba(0,0,0, 0.7),
               rgba(0,0,0, 0.7)), url('../../assets/images/footerbg.png');
     background-color:   #121011;
+    background-repeat: no-repeat;
+    background-size: cover;
     mix-blend-mode: soft-light !important;
 }
 
@@ -86,7 +88,7 @@
 
 
  .footer__copyright, .footer__copyright2 {
-   font-size: 18px;
+   font-size: 18px !important;
  }
 .footer__address p{
     margin-bottom: 1rem;
@@ -118,7 +120,7 @@
 and (max-device-width: 1600px)  {
   
    .footer__bannerdrink img {
-      max-width: 500px;
+      max-width: 480px;
     }
 
     .footer__bannerdrink{
@@ -129,6 +131,7 @@ and (max-device-width: 1600px)  {
    
     .footer__bannerright img, .footer__bannerleft img {
       max-width: 700px;
+     height: 100%;
     }
 
     .footer--right {
@@ -151,10 +154,14 @@ and (max-device-width: 1600px)  {
 }
 
 .footer__copyright {
-   margin-top: 19rem;
+   margin-top: 12rem;
 }
 .footer__copyright2 {
- margin-top: 17rem;
+ margin-top: 10rem;
+}
+
+.footer{
+ height: 750px;
 }
 
  }
