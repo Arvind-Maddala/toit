@@ -3,8 +3,8 @@
 } 
  
 .gallery img {
-    min-width: 475px;
-    min-height: 430px;
+    width: 100%;
+    /* min-height: 430px; */
     object-fit: cover;
  }
 

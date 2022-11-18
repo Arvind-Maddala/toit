@@ -63,11 +63,13 @@
  .footer__bannerdrink{
     position: absolute;
     bottom: 0;
-    left: calc(50% - 300px);
+    left: calc(50% - 200px);
     z-index: 999;
  }
 
-
+.footer__bannerdrink img, .footer__bannerright img, .footer__bannerleft img {
+   width: 100% !important;
+}
  .footer p, li{
     font-size: 24px;
     color: #DC9696;
@@ -120,12 +122,12 @@
 and (max-device-width: 1600px)  {
   
    .footer__bannerdrink img {
-      max-width: 480px;
+      max-width: 380px;
     }
 
     .footer__bannerdrink{
      
-      left: calc(50% - 250px);
+      left: calc(50% - 180px);
       
    }
    

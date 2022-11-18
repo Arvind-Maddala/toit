@@ -38,7 +38,7 @@
 }
 
 .block {
-    min-width: 950px;
+    width: 100%;
     min-height: 1010px;
     background: #CA9E67;
 }

@@ -1,6 +1,7 @@
 .aboutus--parent {
     position: relative;
-    background: url('../../assets/svg/aboutusbg.png') #121011 no-repeat;
+    background: url('../../assets/svg/aboutusbg.png') #121011 no-repeat ;
+    background-size: cover;
     padding-top: 230px;
     padding-bottom: 278px;
     color: #fff;
