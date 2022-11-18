@@ -2,6 +2,8 @@ import React from "react";
 import { Merchandise } from "../../components";
 import "./purchases.css";
 import shopnow from "../../assets/svg/shopnow.png";
+import circle1 from "../../assets/svg/purchasecircleleft.png";
+import circle from "../../assets/svg/purchasecircle.png";
 
 const Purchases = () => {
   return (
@@ -10,7 +12,7 @@ const Purchases = () => {
         <div className="purchases">
           <div className="block"></div>
 
-          <div>
+          <div className="purchses__merchandise">
             <Merchandise />
           </div>
         </div>
@@ -32,6 +34,12 @@ const Purchases = () => {
               </span>
             </button>
           </div>
+        </div>
+        <div className="merchandise__circle1">
+          <img src={circle1} alt="merchandise" />
+        </div>
+        <div className="merchandise__circle2">
+          <img src={circle} alt="merchandise" />
         </div>
       </div>
     </>

@@ -68,10 +68,8 @@ z-index: -1;
 .aboutus__line {
     position: absolute;
     bottom: -30px;
-    left: 1059.46px;
-    z-index: 999;
+    right: 0;
 }
-
 .aboutus__brand {
     position: absolute;
     bottom: 90px;
@@ -90,7 +88,7 @@ z-index: -1;
     border: none;
     position: relative;
     margin-left: 2rem;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .aboutus__explorearrow {
@@ -143,8 +141,11 @@ and (max-device-width: 1600px) {
     }
     
     .aboutus__line {
-        bottom: 70px;
-        left: 679.46px;
+        bottom: 150px;
+        right: -165px;
+    }
+    .aboutus__line img{
+        width: 80%;
     }
 
     .aboutus__explorecircle img {

@@ -14,21 +14,16 @@ position: relative;
     right:231px;
 }
 
-.merchandise__circle1 {
-    position: absolute;
-    left: 0;
-    top:249px;
-}
-.merchandise__circle2 {
-    position: absolute;
-    bottom:63px;
-    left:calc(50% - 100px)
-}
 
+
+.merchandise__parent {
+    position: relative;
+    width: 100%;
+}
 @media (min-device-width: 1200px) 
 and (max-device-width: 1600px)  {
     .merchandise{
-        min-width:760px;
+       min-width: 600px;
         min-height: 780px;
     }
 
